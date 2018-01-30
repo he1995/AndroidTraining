@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AndroidTraining</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">send</string>
+    <string name="article_fragment">This is Article Fragment</string>
+    <string name="head">head</string>
+    <string name="headlines_fragment">This is Headlines Fragment</string>
+    <string name="dial">dial</string>
+    <string name="map">Map</string>
+    <string name="share">分享应用至</string>
+    <string name="calendar">Calendar</string>
+    <string name="contact">Contact</string>
+    <string name="send">Send</string>
+    <string name="permission">Permission</string>
+    <string name="show_result">show result</string>
+    <string name="take_photo">拍照</string>
+    <string name="record_video">录制视频</string>
+</resources>
