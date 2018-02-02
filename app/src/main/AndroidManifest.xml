@@ -28,11 +28,19 @@
                 android:resource="@xml/file_paths"/>
         </provider>
 
-        <activity android:name=".fragment.MainActivity">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".fragment.WhateverActivity">
         </activity>
         <activity
             android:name=".fragment.DisplayMessageActivity"
-            android:parentActivityName=".fragment.MainActivity">
+            android:parentActivityName=".fragment.WhateverActivity">
         </activity>
         <activity android:name=".intent.InteractWithOtherApps">
             <intent-filter>
@@ -49,12 +57,8 @@
         <activity android:name=".camera.CameraActivity">
         </activity>
         <activity android:name=".transition.SimpleTransitionActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
+        <activity android:name=".animations.ScreenSlideActivity"/>
     </application>
 
 </manifest>
