@@ -59,6 +59,7 @@
         <activity android:name=".transition.SimpleTransitionActivity">
         </activity>
         <activity android:name=".animations.ScreenSlideActivity"/>
+        <activity android:name=".animations.CardFlipActivity" />
     </application>
 
 </manifest>
