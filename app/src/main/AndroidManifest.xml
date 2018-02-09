@@ -35,7 +35,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
         <activity android:name=".fragment.WhateverActivity">
         </activity>
         <activity
@@ -59,7 +58,23 @@
         <activity android:name=".transition.SimpleTransitionActivity">
         </activity>
         <activity android:name=".animations.ScreenSlideActivity"/>
-        <activity android:name=".animations.CardFlipActivity" />
+        <activity android:name=".animations.CardFlipActivity"/>
+        <activity android:name=".animations.ZoomActivity"
+            android:theme="@style/ZoomTheme">
+        </activity>
+
+        <activity android:name=".notification.PingActivity"/>
+        <activity android:name=".notification.ResultActivity"
+            android:parentActivityName=".notification.PingActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".notification.PingActivity"/>
+        </activity>
+
+        <service android:name=".notification.PingService"
+                 android:label="PingServiceLabel"
+                 android:enabled="true" />
     </application>
 
 </manifest>

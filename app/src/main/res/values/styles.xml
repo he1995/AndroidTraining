@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ZoomTheme" parent="Theme.AppCompat">
+        <item name="android:selectableItemBackground">@drawable/selector_image</item>
+    </style>
+
 </resources>
