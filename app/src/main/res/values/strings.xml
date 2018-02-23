@@ -75,5 +75,9 @@
     <string name="timer_finished">Timer finished.</string>
     <string name="notification">Ping Notification</string>
     <string name="notify">notify</string>
+    <string name="refresh">refresh</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search something</string>
+    <string name="change_config">change config</string>
 
 </resources>
