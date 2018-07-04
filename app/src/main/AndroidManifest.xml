@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <uses-feature
         android:name="android.hardware.camera2"
@@ -17,7 +18,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.DayNight">
+        android:theme="@style/AppTheme">
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.he.androidtraining.fileprovider"
@@ -93,8 +94,27 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:name=".change_config.ChangeConfigActivity"
+        <activity
+            android:name=".change_config.ChangeConfigActivity"
             android:configChanges="orientation|screenSize">
+        </activity>
+        <activity android:name=".recycleview.RecyclerViewActivity"/>
+        <activity android:name=".customview.CustomViewActivity">
+        </activity>
+        <activity
+            android:name=".appbar.AppBarActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".location.LocationActivity">
+        </activity>
+        <activity android:name=".location.GPSLocationActivity"/>
+
+        <service
+            android:name=".location.FetchAddressIntentService"
+            android:exported="false"/>
+
+        <activity android:name=".palette.PaletteActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
     </application>
 

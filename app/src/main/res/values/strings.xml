@@ -79,5 +79,20 @@
     <string name="search_title">Search</string>
     <string name="search_hint">Search something</string>
     <string name="change_config">change config</string>
+    <string name="recycler_view">recyclerview</string>
+    <string name="custom_view">custom view</string>
+    <string name="favorite">favorite</string>
+    <string name="settings">settings</string>
+    <string name="appbar">appbar</string>
+    <string name="service_not_available">service not available</string>
+    <string name="invalid_lat_long_used">invalid lat long used</string>
+    <string name="no_address_found">no address found</string>
+    <string name="address_found">address found</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="no_geocoder_available">no geocoder available</string>
+    <string name="location">location</string>
+    <string name="gps_location">gps location</string>
+    <string name="image">image</string>
+    <string name="palette">palette</string>
 
 </resources>
