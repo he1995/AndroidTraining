@@ -94,5 +94,6 @@
     <string name="gps_location">gps location</string>
     <string name="image">image</string>
     <string name="palette">palette</string>
+    <string name="file">file</string>
 
 </resources>

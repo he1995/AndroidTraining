@@ -116,6 +116,8 @@
         <activity android:name=".palette.PaletteActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
+
+        <activity android:name=".file.FileActivity" />
     </application>
 
 </manifest>
